@@ -8,8 +8,8 @@ const userInfoContainer=document.querySelector('.user-info-container');
 const grantaccessbutton=document.querySelector('[data-grantAccess ]');
 const notfound=document.querySelector("[not-found-404]");
 // initail variables
+const API_KEY="0825a79a6a20072a0abd37d897619f4f";
 let currentTab=userTab;
-const API_KEY='0825a79a6a20072a0abd37d897619f4f';
 currentTab.classList.add("current-tab");
 
 // ??
