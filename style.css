@@ -15,7 +15,8 @@
 .wrapper{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(160deg,#112d4e 0%, #3f72af 100%);
+    background: rgb(24,26,80);
+    background: linear-gradient(90deg, rgba(24,26,80,1) 21%, rgba(28,80,195,0.9458158263305322) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +34,8 @@
 h1{
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 900;
+
 }
 .tab-container{
     display: flex;
@@ -159,7 +161,7 @@ h1{
 }
 
 .name img{
-    width: 20px;
+    width: 30px;
     height: 30px;
 }
 
@@ -192,6 +194,7 @@ h1{
     color: white;
     gap: 5px 0;
     align-items: center;
+    transition: all ease 0.3s;
 }.parameter img{
     width: 50px;
     height: 50px;
@@ -269,4 +272,9 @@ h1{
 
 .notfound404.active{
     display: block;
+}
+.parameter:hover{
+    transform: scale(1.2);
+    border: 1px solid white ;
+
 }
